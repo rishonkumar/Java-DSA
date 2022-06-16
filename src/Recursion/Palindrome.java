@@ -2,7 +2,7 @@ package Recursion;
 
 public class Palindrome {
 
-    private static  Boolean helper(String s, int l, int r){
+    private static  Boolean helper(String s, int l, int r) {
         if(l > r) return true;
 
         if(s.charAt(l) != s.charAt(r)) return false;

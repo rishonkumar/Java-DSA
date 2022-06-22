@@ -12,7 +12,8 @@ public class Combination_Sum_2 {
         recursion(candidates, target, 0, ds, ans);
         return ans;
     }
-    private void recursion(int[] candidates, int target, int currentIndex, ArrayList<Integer> ds, List<List<Integer>> ans) {
+    private void recursion(int[] candidates, int target, int currentIndex, ArrayList<Integer> ds,
+                           List<List<Integer>> ans) {
 
         //Base case
         if (currentIndex == candidates.length) {

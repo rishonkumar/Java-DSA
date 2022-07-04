@@ -10,7 +10,6 @@ public class First_Last_Pos {
         return ans;
     }
     int firstPost(int[] arr,int t) {
-
         int s = 0, e = arr.length-1;
         int ans = -1;
         while(s <= e) {
@@ -38,7 +37,6 @@ public class First_Last_Pos {
                 s = m+1;
             }
             else if(arr[m] < t) s = m+1;
-
             else e = m-1;
         }
         return ans;

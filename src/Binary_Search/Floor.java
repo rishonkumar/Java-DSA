@@ -22,7 +22,7 @@ public class Floor {
 
             else return m;
         }
-        //if it doesnt lie n b/w s and e that means ans e
+        //if it doesn't lie n b/w s and e that means ans e after breaking the loop
         return e;
     }
 }

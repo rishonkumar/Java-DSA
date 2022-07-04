@@ -26,7 +26,7 @@ public class Ceiling {
 
             else return m;
         }
-        //if it doesnt lie n b/w s and e that means ans s
+        //if it doesn't lie n b/w s and e that means ans s after breaking the loop
         return s;
     }
 }

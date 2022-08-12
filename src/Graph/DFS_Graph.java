@@ -20,7 +20,7 @@ public class DFS_Graph {
     }
 
     public ArrayList<Integer> dfsOfGraph(int V, ArrayList<ArrayList<Integer>> adj) {
-        // Code here
+        // TC - O(N) + O(2E)
         ArrayList<Integer> ans = new ArrayList<>();
         boolean[] vis = new boolean[V];
         vis[0] = true;

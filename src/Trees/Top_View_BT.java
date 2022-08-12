@@ -6,15 +6,15 @@ import java.util.Map;
 import java.util.Queue;
 import java.util.TreeMap;
 
-class Pair {
-    int hd;
-    Node node;
-
-    public Pair(int _hd, Node _node) {
-        hd = _hd;
-        node = _node;
-    }
-}
+//class Pair {
+//    int hd;
+//    Node node;
+//
+//    public Pair(int _hd, Node _node) {
+//        hd = _hd;
+//        node = _node;
+//    }
+//}
 
 public class Top_View_BT {
     static ArrayList<Integer> topView(Node root)

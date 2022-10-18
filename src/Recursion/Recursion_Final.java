@@ -20,7 +20,7 @@ public class Recursion_Final {
         return smallAns * a;
     }
 
-    // optimised approach
+    // optimized approach
     static int power(int a, int b) {
 
         if (b == 0) return 1;
